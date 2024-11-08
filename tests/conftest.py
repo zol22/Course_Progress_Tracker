@@ -1,15 +1,15 @@
 
 import pytest
 from selenium import webdriver
+import undetected_chromedriver as uc
 
 #@pytest.fixture(param=["chrome", "firefox"])
 @pytest.fixture()
 def driver(request):
     browser = request.config.getoption("--browser")
-    #browser = request.param
     print(f"Creating {browser} driver")
     if browser == "chrome":
-        my_driver = webdriver.Chrome()
+        my_driver = uc.Chrome()
     elif browser == "firefox":
         my_driver = webdriver.Firefox()
     else:
