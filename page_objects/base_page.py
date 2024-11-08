@@ -15,13 +15,9 @@ class BasePage:
         return self._driver.find_element(*locator)
 
     def _type(self, locator: tuple, text: str, time: int = 10):
-        #self._wait_until_element_is_visible(locator, time)
-        #self._find(locator).send_keys(text)
-
-        # If the field is present but won’t accept interaction, try setting the value directly with JavaScript to bypass the need
-        # for visibility or clickability entirely. Make the email input field visible using JavaScript
-        #self._driver.execute_script("document.getElementsByName('email')[0].value = 'ssormeno@hotmail.com';")
-        self._driver.execute_script("arguments[0].value = arguments[1];", locator, text)
+        #self._wait_until_element_is_visible(locator, time) Email element is present but no visible
+        self._find(locator).send_keys(text)
+        #OR self._driver.execute_script("arguments[0].value = arguments[1];", locator, text)
 
     def _click(self, locator: tuple, time: int = 10):
         self._wait_until_element_is_visible(locator, time)
