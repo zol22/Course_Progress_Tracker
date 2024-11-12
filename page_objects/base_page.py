@@ -17,7 +17,8 @@ class BasePage:
     def _type(self, locator: tuple, text: str, time: int = 10):
         #self._wait_until_element_is_visible(locator, time) Email element is present but no visible
         self._find(locator).send_keys(text)
-        #OR self._driver.execute_script("arguments[0].value = arguments[1];", locator, text)
+        #self._find(locator)
+        #self._driver.execute_script("arguments[0].value = arguments[1];", locator, text)
 
     def _click(self, locator: tuple, time: int = 10):
         self._wait_until_element_is_visible(locator, time)
