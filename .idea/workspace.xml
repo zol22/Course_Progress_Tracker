@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="644f60ec-f61e-498b-9818-168e47d85178" name="Changes" comment="Get emails updated" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zol22&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zol22/Course_Progress_Tracker.git&quot;,
+    &quot;accountId&quot;: &quot;30bb0721-1932-4ccc-8238-8e1529f2ba6b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2oVLsSW8odEyfXCO8JkoyyTVAxE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_login_page.py.executor": "Run",
+    "Python tests.pytest in /login test.executor": "Run",
+    "Python.access_email.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.login_page.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="pytest in /login test" type="tests" factoryName="py.test">
+      <module name="Course_Progress_Tracker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m login&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="644f60ec-f61e-498b-9818-168e47d85178" name="Changes" comment="" />
+      <created>1730950002775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730950002775</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add ReadMe.md">
+      <option name="closed" value="true" />
+      <created>1730955211981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730955211981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update ReadMe.md&#10;Add base page methods">
+      <option name="closed" value="true" />
+      <created>1731018965615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731018965615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix: Bypass the need for visibility email element">
+      <option name="closed" value="true" />
+      <created>1731045981895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731045981895</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dont check for email visibility">
+      <option name="closed" value="true" />
+      <created>1731046205855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731046205855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Get emails updated">
+      <option name="closed" value="true" />
+      <created>1731377151156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731377151156</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731377210094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731377210094</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731377318495</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731377318495</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731378186487</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731378186487</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731378771278</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731378771278</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731380681536</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731380681536</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381169215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381169215</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381191345</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381191345</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381195691</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381195691</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381197910</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381197910</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381200071</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381200071</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381205651</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381205651</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381210110</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381210110</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381569802</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381569802</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381604253</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381604253</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381639085</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381639085</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381642004</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381642004</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381646192</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381646192</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381665184</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381665184</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381710774</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381710774</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381722651</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381722651</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381728435</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381728435</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731381805623</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731381805623</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731382586682</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382586682</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731382636942</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382636942</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Get emails update">
+      <option name="closed" value="true" />
+      <created>1731382676150</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382676150</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1731382839686</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382839686</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1731382881393</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382881393</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1731382883694</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382883694</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Get emails updated">
+      <option name="closed" value="true" />
+      <created>1731382895112</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382895112</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Get emails updated">
+      <option name="closed" value="true" />
+      <created>1731382908871</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1731382908871</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Get emails updated">
+      <option name="closed" value="true" />
+      <created>1731383065177</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1731383065177</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Add ReadMe.md" />
+    <MESSAGE value="Update ReadMe.md&#10;Add base page methods" />
+    <MESSAGE value="Fix: Bypass the need for visibility email element" />
+    <MESSAGE value="Dont check for email visibility" />
+    <MESSAGE value="Get emails update" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Get emails updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get emails updated" />
+  </component>
+</project>
