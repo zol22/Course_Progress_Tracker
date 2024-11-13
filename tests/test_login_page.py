@@ -3,11 +3,14 @@ import pytest
 from page_objects.login_page import LoginPage
 from actions.access_email import  get_email_messages
 from actions.code_extractor import extract_verification_code
+from page_objects.my_learning_page import MyLearningPage
+
 
 
 class TestPositiveScenarios:
 
-    @pytest.mark.login
+    #@pytest.mark.login
+    @pytest.mark.dependency(name="login")  # Marks this test as the login dependency
     def test_positive_login(self,driver):
         # Instances
         login_page = LoginPage(driver)
@@ -29,9 +32,28 @@ class TestPositiveScenarios:
             if verification_code:
                 print(f"Verification code retrieved: {verification_code}")
                 # Enter verification code in the login process
-                # Locate the input to enter 6 digit code and type
+                login_page.type_verification_code(verification_code)
             else:
                 print("Failed to find verification code in the email messages.")
         else:
             print("Failed to retrieve email messages.")
+
+        time.sleep(10)
+
+
+
+   #@pytest.mark.navigation
+    @pytest.mark.dependency(depends=["login"])  # Specifies dependency on login test
+    def test_navigate_to_my_learning(self, driver):
+
+        # Instances
+        my_learning_page = MyLearningPage(driver)
+
+        # Navigate to My Learning
+        my_learning_page.navigate_to_my_learning_page()
+
+        #Verify new page URL contains https://www.udemy.com/home/my-courses/learning/
+        assert my_learning_page.expected_url == my_learning_page.current_url,"Actual URL is not the same as expected"
+
+
 
