@@ -58,5 +58,9 @@ class TestPositiveScenarios:
         assert my_learning_page_navigator.expected_url == my_learning_page_navigator.current_url,"Actual URL is not the same as expected"
 
         # Assert that navigation to "My Learning" was successful
-        assert "My Learning" in driver.title, "Navigation to My Learning failed"
+        assert "My Learning | Udemy" in driver.title, "Navigation to My Learning failed"
+
+
+        # Retrieve and save course data
+        #course_data = my_learning_page_navigator.get_learning_modules()
 

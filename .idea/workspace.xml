@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="644f60ec-f61e-498b-9818-168e47d85178" name="Changes" comment="Add Mylearning button selector">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/udemy_learning_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/udemy_learning_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    <list default="true" id="644f60ec-f61e-498b-9818-168e47d85178" name="Changes" comment="Add Pytest Session in conftest.py">
       <change beforePath="$PROJECT_DIR$/tests/test_positive_scenarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_positive_scenarios.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -472,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731992267343</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Add Pytest Session in conftest.py">
+      <option name="closed" value="true" />
+      <created>1732055430429</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1732055430429</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,6 +504,7 @@
     <MESSAGE value="Add navigate to my learning" />
     <MESSAGE value="successful login to udemy account" />
     <MESSAGE value="Add Mylearning button selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Mylearning button selector" />
+    <MESSAGE value="Add Pytest Session in conftest.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Pytest Session in conftest.py" />
   </component>
 </project>
