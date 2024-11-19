@@ -8,7 +8,7 @@ class LoginPage(BasePage):
     __url = "https://www.udemy.com/join/passwordless-auth/"
     __email_field = (By.CSS_SELECTOR, "input[name='email']")
     __continue_with_email_button =(By.XPATH,"//*[@id='udemy']/div[1]/div[2]/div/div/main/div/div/form/button")
-    __verification_code_input =(By.XPATH,"//input[contains(@id,'form-group')]")
+    __verification_code_input =(By.XPATH,"//input[contains(@id,'form-group')]") # Dynamic input field
     __login_button =(By.XPATH, "//*[@id='udemy']/div[1]/div[2]/div/div/main/div/div/div[3]/form/div[2]/button")
 
     def __init__(self, driver: WebDriver):

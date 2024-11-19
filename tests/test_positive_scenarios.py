@@ -2,8 +2,9 @@ import time
 import pytest
 from page_objects.login_page import LoginPage
 from actions.access_email import EmailHandler
+from actions.save_to_cvs import SaveToCVS
 from actions.code_extractor import extract_verification_code
-from page_objects.my_learning_page import MyLearningPage
+from page_objects.udemy_learning_page import UdemyLearningNavigator
 
 
 class TestPositiveScenarios:
@@ -48,19 +49,21 @@ class TestPositiveScenarios:
         time.sleep(10)
 
 
-
-   #@pytest.mark.navigation
     @pytest.mark.dependency(depends=["login"])  # Specifies dependency on login test
     def test_navigate_to_my_learning(self, driver):
 
         # Instances
-        my_learning_page = MyLearningPage(driver)
+        my_learning_page_navigator = UdemyLearningNavigator(driver)
 
         # Navigate to My Learning
-        my_learning_page.navigate_to_my_learning_page()
+        my_learning_page_navigator.navigate_to_my_learning_page()
 
         #Verify new page URL contains https://www.udemy.com/home/my-courses/learning/
-        assert my_learning_page.expected_url == my_learning_page.current_url,"Actual URL is not the same as expected"
+        assert my_learning_page_navigator.expected_url == my_learning_page_navigator.current_url,"Actual URL is not the same as expected"
 
+        # Assert that navigation to "My Learning" was successful
+        assert "My Learning" in driver.title, "Navigation to My Learning failed"
 
+        # Retrieve and save course data
+        course_data = my_learning_page_navigator.get_learning_modules()
 
