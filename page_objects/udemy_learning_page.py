@@ -6,9 +6,11 @@ from selenium.webdriver.common.by import By
 
 class UdemyLearningNavigator(BasePage):
 
-    __my_learning_button =(By.XPATH,"/html/body /div[1]/div[1]/header/div[4]/a") # Dynamic My learning button
+    __my_learning_button =(By.XPATH, "//a[@data-testid='my-courses']") # Dynamic My learning button
     _url = "https://www.udemy.com/home/my-courses/learning/"
     __module_selector = (By.XPATH, "//div[starts-with(@id, 'course-card-title-module--title')]//a")
+
+
 
 
     def __init__(self, driver: WebDriver):

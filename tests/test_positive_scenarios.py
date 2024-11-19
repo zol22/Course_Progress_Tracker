@@ -28,18 +28,14 @@ class TestPositiveScenarios:
 
         # Perform Microsoft authentication and extract the verification code
         messages = login_email.get_email_messages()
-        time.sleep(15)
         if messages:
             verification_code = extract_verification_code(messages)
             if verification_code:
                 print(f"Verification code retrieved: {verification_code}")
-                #login_page.type_verification_code(verification_code) #Enter the verification code
             else:
                 print("Failed to find verification code in the email messages.")
         else:
             print("Failed to retrieve email messages.")
-
-        time.sleep(5)
 
         if verification_code:
             login_page.type_verification_code(verification_code)
@@ -63,7 +59,4 @@ class TestPositiveScenarios:
 
         # Assert that navigation to "My Learning" was successful
         assert "My Learning" in driver.title, "Navigation to My Learning failed"
-
-        # Retrieve and save course data
-        course_data = my_learning_page_navigator.get_learning_modules()
 

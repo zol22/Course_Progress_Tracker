@@ -3,8 +3,7 @@ import pytest
 from selenium import webdriver
 import undetected_chromedriver as uc
 
-#@pytest.fixture(param=["chrome", "firefox"])
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def driver(request):
     browser = request.config.getoption("--browser")
     print(f"Creating {browser} driver")

@@ -48,3 +48,7 @@ ElementNotInteractableException.
 You’ll also need to ensure:
 - IMAP Access is Enabled: Check that IMAP is enabled in your Hotmail account settings.
 - App-Specific Password (if using 2FA): If you have two-factor authentication enabled, create an app-specific password for IMAP access.
+
+### 6) Pytest Session
+The driver (browser instance) is being recreated for every test. By default, pytest fixtures are recreated for each test unless specified otherwise.
+To fix the issue and reuse the same browser instance across tests in your test_positive_scenarios file, you can use a session-scoped fixture for the WebDriver. This ensures that the same browser instance persists across all tests within the same session.
