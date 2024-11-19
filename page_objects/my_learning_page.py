@@ -9,10 +9,6 @@ class MyLearningPage(BasePage):
     _url = "https://www.udemy.com/home/my-courses/learning/"
 
 
-    def __init__(self, driver: WebDriver):
-        super().__init__(driver)
-
-
     def navigate_to_my_learning_page(self):
         super()._click(self.__my_learning_button)
 

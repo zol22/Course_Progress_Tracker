@@ -1,10 +1,9 @@
 import time
 import pytest
 from page_objects.login_page import LoginPage
-from actions.access_email import  get_email_messages
+from actions.access_email import EmailHandler
 from actions.code_extractor import extract_verification_code
 from page_objects.my_learning_page import MyLearningPage
-
 
 
 class TestPositiveScenarios:
@@ -14,29 +13,37 @@ class TestPositiveScenarios:
     def test_positive_login(self,driver):
         # Instances
         login_page = LoginPage(driver)
+        login_email = EmailHandler(driver)
 
-        # Open the page
+        # Open Udemy login page
         login_page.open()
-
         time.sleep(3)
 
-        # Type email student into email field , & Push button
+
+        # Type email and initiate login
         login_page.execute_login("ssormeno@hotmail.com")  # Email element is present but no visible
 
-        time.sleep(10)
+        verification_code = None
 
-        # Fetch the email messages and extract the verification code
-        messages = get_email_messages()
+        # Perform Microsoft authentication and extract the verification code
+        messages = login_email.get_email_messages()
+        time.sleep(15)
         if messages:
             verification_code = extract_verification_code(messages)
             if verification_code:
                 print(f"Verification code retrieved: {verification_code}")
-                # Enter verification code in the login process
-                login_page.type_verification_code(verification_code)
+                #login_page.type_verification_code(verification_code) #Enter the verification code
             else:
                 print("Failed to find verification code in the email messages.")
         else:
             print("Failed to retrieve email messages.")
+
+        time.sleep(5)
+
+        if verification_code:
+            login_page.type_verification_code(verification_code)
+        else:
+            raise Exception("Verification code not found, login process failed.")
 
         time.sleep(10)
 

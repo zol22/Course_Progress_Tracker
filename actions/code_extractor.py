@@ -12,7 +12,6 @@ def extract_verification_code(messages):
             match = re.search(r'\b\d{6}\b', body)
             if match:
                 verification_code = match.group()
-                print(f"Verification code found: {verification_code}")
                 return verification_code
 
     print("No Udemy verification code found.")
